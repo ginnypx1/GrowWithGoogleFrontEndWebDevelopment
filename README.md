@@ -6,6 +6,6 @@ By working through the Udacity Front End Web Development Nanodegree, I hope to c
 
 ## View My Work
 
-To see the webpages I have created, please click the following links:
+To see the webpages I have created, please click the following link:
 
-(to-do)
+[Grow With Google Developer Challenge Scholarship Work](https://ginnypx1.github.io/GrowWithGoogleFrontEndWebDevelopment/)
