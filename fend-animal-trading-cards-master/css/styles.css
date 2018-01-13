@@ -1,0 +1,43 @@
+/******* BACKGROUND **********/
+#wrapper {
+    width: 348px;
+}
+/******* CARD ****************/
+.card {
+    width: 320px;
+    margin: 10px 10px 15px 10px;
+    box-shadow: 6px 6px 0px 0px rgba(230,230,230,1);
+    font-family: "Times", serif;
+    font-size: 12px;
+}
+h3 {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+.info {
+    line-height: 1.25em;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+span {
+    font-weight: bold;
+}
+#fun-fact {
+    font-style: italic;
+}
+/******* BORDERS **************/
+.card,
+.info {
+    border: 1px solid #e6e6e6;
+}
+/******* MARGINS **************/
+.info,
+.info p,
+.info ul {
+    margin: 10px;
+}
+img {
+    margin: 0px 10px;
+}
