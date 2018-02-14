@@ -1,20 +1,37 @@
+/* UNIVERSAL */
+
 body {
     text-align: center;
+    font-family: 'Arial';
 }
 
+/* BACKGROUND */
+
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
+    background-image: url(../img/square-2724387_1920.jpg);
+    background-size: 100%;
+}
+
+/* FONTS */
+
+h1 {
+    font-family: 'Righteous';
+    font-size: 5em;
     margin: 0.2em;
+    color: #e94b3c;
 }
 
 h2 {
+    font-size: 1.25em;
     margin: 1em 0 0.25em;
+    color: #6B5B95;
 }
 
 h2:first-of-type {
     margin-top: 0.5em;
 }
+
+/* CANVAS */
 
 table,
 tr,
@@ -35,6 +52,17 @@ td {
     width: 20px;
 }
 
+/* CONTROLS */
+
+form {
+    margin-top: 10px;
+}
+
 input[type=number] {
     width: 6em;
+}
+
+button {
+    display: block;
+    margin: 5px auto;
 }

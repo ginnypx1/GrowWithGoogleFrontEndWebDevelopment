@@ -3,15 +3,24 @@ Sets variables for all required dom elements
 */
 let canvas = $('#pixelCanvas');
 let colorPicker = $('#colorPicker');
+let randomButton = $( 'button, input[type="button"]' );
 let inputHeight = $('#inputHeight');
 let inputWidth = $('#inputWeight');
-let submitButton = $( 'button, input[type="submit"]' );
+let submitButton = $('input[type="submit"]');
 
 
 /**
 Sets all required global variables
 */
 let color = '#000000';
+let colors = ['#6b5b95', '#ecdb54', '#e94b3c', '#6f9fd8', '#944743',
+              '#dbb1cd', '#ec9787', '#00a591', '#6b5b95', '#6c4f3d',
+              '#eadedb', '#bc70a4', '#bfd641', '#2e4a62', '#b4b7ba',
+              '#c0ab8e', '#f0ede5', '#92b558', '#dc4c46', '#672e3b',
+              '#f3d6e4', '#c48f65', '#223a5e', '#898e8c', '#005960',
+              '#9c9a40', '#4f84c4', '#d2691e', '#578ca9', '#f6d155',
+              '#004b8d', '#f2552c', '#95dee3', '#edcdc2', '#ce3127',
+              '#5a7247', '#cfb095', '#4c6a92', '#92bbd5', '#838487']
 
 
 /**
@@ -64,4 +73,15 @@ colorPicker.change(function(){
 */
 canvas.on('click', 'td', function(){
     $(this).css('background-color', color);
+});
+
+/**
+* @description Allows a user to choose a color at random
+*/
+randomButton.click(function(){
+    // pick a random color from the colors array
+    let randomNumber = Math.floor((Math.random() * (colors.length)));
+    color = colors[randomNumber];
+    // change the color of the color picker
+    colorPicker.val(color);
 });
