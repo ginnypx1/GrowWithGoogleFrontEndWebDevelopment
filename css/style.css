@@ -1,8 +1,9 @@
 /******************************** JUMBOTRON */
-.jumbotron { 
+.jumbotron {
     background-color: #f0f0f0; /*grey*/
     border-top: 3px solid #4885ed; /*google blue*/
     border-bottom: 3px solid #4885ed; /*google blue*/
+    font-family: 'Cabin Sketch';
 }
 .jumbotron h1 {
     color: #4885ed; /*google blue*/
