@@ -1,0 +1,109 @@
+/*********** BODY ***********/
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0.1em;
+    text-align: right;
+}
+.headline, #main-photo, .portfolio-wrapper, footer {
+    margin: 0.5em auto;
+    max-width: 1000px;
+}
+
+/*********** FONTS ***********/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h1, a {
+    font-weight: 300;
+}
+h2 {
+    font-weight: 500;
+}
+h4, p {
+    font-weight: 400;
+}
+h1 {
+    font-size: 1.75em;
+}
+h2 {
+    font-size: 1em;
+}
+
+/*********** COLORS ***********/
+h3 {
+    color: #7d97ad;
+    font-weight: 300;
+}
+a:hover, a:visited {
+    color: #7d97ad;
+}
+h1, h2, h4, p, a {
+    color: #2d3c49;
+}
+
+/*********** HEADLINE ***********/
+#udacity-logo {
+    width: 75px;
+    height: 75px;
+}
+
+.headline {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    border-bottom: 3px solid #7d97ad;
+}
+.logo {
+    width: 25%;
+}
+.identifiers {
+    width: 75%;
+}
+
+/*********** JUMBOTRON IMAGE ***********/
+#main-photo {
+    display: block;
+    width: 95%;
+    border: 1px solid #7d97ad;
+}
+
+/*********** PORTFOLIO ***********/
+h3 {
+    padding: 0.25em 0.25em 0.0em 0.5em;
+    font-size: 1.75em;
+}
+#projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.project img {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid #7d97ad;
+}
+.project h4, .project p {
+    text-align: center;
+    margin: 0.25em;
+    padding: 0.25em;
+}
+a {
+    font-size: 1em;
+    text-decoration: none;
+}
+/*********** FOOTER ***********/
+footer {
+    border-top: 3px solid #7d97ad;
+    text-align: center;
+}
+
+
