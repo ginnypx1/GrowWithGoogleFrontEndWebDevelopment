@@ -38,15 +38,15 @@ h2 {
 }
 
 /*********** COLORS ***********/
-h3 {
-    color: #7d97ad;
+h3, h2 {
+    color: #feb82f;
     font-weight: 300;
 }
 a:hover, a:visited {
-    color: #7d97ad;
+    color: #feb82f
 }
-h1, h2, h4, p, a {
-    color: #2d3c49;
+h1, h4, p, a {
+    color: #990033;
 }
 
 /*********** HEADLINE ***********/
@@ -59,7 +59,7 @@ h1, h2, h4, p, a {
     display: flex;
     flex-wrap: wrap;
     padding: 0.5em;
-    border-bottom: 3px solid #7d97ad;
+    border-bottom: 3px solid #fa6302;
 }
 .logo {
     width: 25%;
@@ -72,7 +72,7 @@ h1, h2, h4, p, a {
 #main-photo {
     display: block;
     width: 95%;
-    border: 1px solid #7d97ad;
+    border: 1px solid #feb82f;
 }
 
 /*********** PORTFOLIO ***********/
@@ -89,7 +89,7 @@ h3 {
     display: block;
     max-width: 300px;
     margin: 0 auto;
-    border: 1px solid #7d97ad;
+    border: 1px solid #feb82f;
 }
 .project h4, .project p {
     text-align: center;
@@ -102,7 +102,7 @@ a {
 }
 /*********** FOOTER ***********/
 footer {
-    border-top: 3px solid #7d97ad;
+    border-top: 3px solid #fa6302;
     text-align: center;
 }
 
