@@ -1,0 +1,56 @@
+body {
+    background-image: url('../img/tree-141692_1920.jpg');
+}
+
+/******* BACKGROUND **********/
+#wrapper {
+    width: 348px;
+    margin: 50px auto;
+}
+
+/******* CARD ****************/
+#card {
+    width: 320px;
+    margin: 10px 10px 15px 10px;
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,0.5);
+    font-family: "Times", serif;
+    font-size: 12px;
+    color: #333;
+    background-color: #f0edea;
+    text-align: justify;
+    border-radius: 10px;
+}
+h1 {
+    margin-left: 10px;
+    font-size: 1.5em;
+    text-align: center;;
+}
+.animal-info {
+    line-height: 1.25em;
+    border-top: 1px solid #999;
+}
+#facts {
+    list-style: none;
+    padding-left: 45px;
+    font-weight: bold;
+}
+span {
+    font-weight: bold;
+}
+#interesting-fact {
+    font-style: italic;
+}
+
+/******* MARGINS **************/
+.animal-info,
+.animal-info p,
+.animal-info ul {
+    margin: 10px;
+}
+.animal-info {
+    padding: 0px 10px 10px 10px;
+}
+img {
+    width: 280px;
+    margin: 20px 20px 0px 20px;
+}
